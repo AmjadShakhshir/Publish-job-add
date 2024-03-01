@@ -103,6 +103,11 @@ body {
     font-size: small;
 }
 
+.select-1.activate {
+    background-color: #f9fbff;
+    border: 1px solid #0b75ff;
+}
+
 [class^="select-"]:hover { 
     border: 1px solid #0b75ff;
     background-color: #f9fbff;
@@ -113,9 +118,10 @@ body {
 [class^="select-"] input {
     display: block;
     margin-left: 0.5rem;
+    height: 20px;
+    width: 20px;
+    background-color: #0b75ff;
 }
-
-[class^="select-"] input[type="radio"]:checked { background-color: #f9fbff; }
 
 [class^="fi-content-"] {
     display: flex;
